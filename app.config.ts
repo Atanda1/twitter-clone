@@ -2,13 +2,6 @@ export default defineAppConfig({
   ui: {
     strategy: "override",
     primary: "cool",
-    button: {
-      color: {
-        white: {
-          solid: "bg-white dark:bg-gray-900",
-        },
-      },
-    },
     avatar: {
       size: {
         xl: "h-32 w-32",
@@ -22,7 +15,6 @@ export default defineAppConfig({
       rounded: "rounded-none",
     },
     tabs: {
-      container: "",
       list: {
         rounded: "rounded-none",
         background: "bg-transparent",
@@ -36,7 +28,7 @@ export default defineAppConfig({
       },
     },
     container: {
-      padding: "",
+      padding: "pa-0",
     },
   },
 });
