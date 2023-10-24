@@ -32,7 +32,7 @@ const replies = [
 </script>
 
 <template>
-  <div class="grid justify-center border-x border-gray-600">
+  <div class="grid justify-center">
     <div class="border-x border-gray-600">
       <NuxtImg src="/vue-cover.jpeg" />
 

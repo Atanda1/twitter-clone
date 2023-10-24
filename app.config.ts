@@ -20,8 +20,6 @@ export default defineAppConfig({
         background: "bg-transparent",
         base: "border-b border-gray-600",
         marker: {
-          wrapper:
-            "absolute top-[4px] left-[4px] duration-200 ease-out focus:outline-none",
           base: "w-full h-full",
           background: "bg-transparent",
         },
